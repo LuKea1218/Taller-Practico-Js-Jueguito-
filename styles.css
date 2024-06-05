@@ -1,7 +1,6 @@
 * {
     box-sizing: border-box;
   }
-  
   body {
     background-color: #133c55;
     color: #fff;  
@@ -9,7 +8,6 @@
     margin: 0;
     padding: 0;
   }
-  
   .game-container {
     display: flex;
     align-items: center;
@@ -18,13 +16,11 @@
     height: 100vh;
     width: 100vw;
   }
-  
   canvas {
     border: 4px solid #386fa4;
     border-radius: 8px;
     background-color: #91e5f6;
   }
-  
   .btns {
     display: flex;
     justify-content: center;
@@ -32,7 +28,6 @@
     margin: 0 auto;
     width: 100%;
   }
-  
   button {
     background-color: #84d2f6;
     border-radius: 8px;
@@ -46,7 +41,6 @@
   button:not(:last-child) {
     margin-right: 10px;
   }
-  
   .messages {
     display: flex;
     flex-wrap: wrap;
@@ -54,13 +48,11 @@
     width: 80%;
     max-width: 460px;
   }
-  
   p {
     display: block;
     margin: 0;
     width: 100%;
   }
-  
   @media (max-width: 440px) {
     button { margin-top: 5px; }
     #up, #down { margin-left: 100%; margin-right: 100%; }
